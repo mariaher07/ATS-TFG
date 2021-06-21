@@ -1,9 +1,16 @@
 # From Abstracts to Titles: Experiments with Sequence-to-Sequence models
 This repository includes the code used for developing the Bachelor Thesis named after this repository, written by María Hernández Padilla, 2021.
 
+
+
+
 **Datasets used for the project**:
 - News dataset: https://www.kaggle.com/sunnysai12345/news-summary 
 - ArXiv dataset: https://www.kaggle.com/Cornell-University/arxiv
+
+
+
+
 
 
 
