@@ -14,6 +14,7 @@ Instructions for executing:
   
   
 - Training the models: 
+    - Two files: "model_gpu_arixv.ipynb" and "model_gpu_news.ipynb". Ideally, this part should be run on GPU.
     - Modify "data_path" and "results_path"
     - attention.py should be imported. Import Attention mechanism class (Bahdanaus architecture) extracted from https://github.com/madhav727/abstractive-news-summary/blob/master/attention.py
     - Inputs are the results from "loading and preprocessing" section.
