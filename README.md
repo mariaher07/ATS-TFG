@@ -15,10 +15,10 @@ Instructions for executing:
   
 - Training the models: 
     - Modify "data_path" and "results_path"
-    - attention.py should be imported
+    - attention.py should be imported. Import Attention mechanism class (Bahdanaus architecture) extracted from https://github.com/madhav727/abstractive-news-summary/blob/master/attention.py
     - Inputs are the results from "loading and preprocessing" section.
     - Results will be model predictions for the test subdataset.
-    - Import Attention mechanism class (Bahdanaus architecture) extracted from https://github.com/madhav727/abstractive-news-summary/blob/master/attention.py
+    
   
   
 - Results after training the models are included in predictions_results folder.
