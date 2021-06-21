@@ -9,7 +9,8 @@ Datasets used for the project:
 
 Instructions for executing:
 
-- Loading dataset and preprocessing with nltk: load_preprocess_arxiv.ipynb, load_preprocess_arxiv.ipynb
+- Loading dataset and preprocessing with nltk: "load_preprocess_arxiv.ipynb", "load_preprocess_arxiv.ipynb".
+  
   This is done using Google Colab; in "data_path" and "results_path" add the paths needed.
   
   
