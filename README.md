@@ -22,7 +22,9 @@ This repository includes the code used for developing the Bachelor Thesis named 
   
   
 - Training the models: 
-    - Two files: "model_gpu_arixv.ipynb" and "model_gpu_news.ipynb". Ideally, this part should be run on GPU.
+    - Two files: "model_gpu_arixv.ipynb" and "model_gpu_news.ipynb". Ideally, this part should be run on GPU. These two files contain the same code, only changing the limitation for the headline size for each dataset.
+      
+      
       Dependencies: "Python 3.6.4", "CUDA/10.0.130" and "cuDNN/7.6.3.30-CUDA-10.0.130"
       
     - Modify "data_path" and "results_path"
