@@ -28,7 +28,7 @@ This repository includes the code used for developing the Bachelor Thesis named 
       Dependencies: "Python 3.6.4", "CUDA/10.0.130" and "cuDNN/7.6.3.30-CUDA-10.0.130"
       
     - Modify "data_path" and "results_path"
-    - attention.py should be imported. Import Attention mechanism class (Bahdanaus architecture) extracted from https://github.com/madhav727/abstractive-news-summary/blob/master/attention.py
+    - attention.py should be imported. Import Attention mechanism class (Bahdanaus architecture) extracted from [attention class](https://github.com/madhav727/abstractive-news-summary/blob/master/attention.py)
     - Inputs are the results from "loading and preprocessing" section.
     - Results will be model predictions for the test subdataset.
     
