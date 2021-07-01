@@ -5,8 +5,8 @@ This repository includes the code used for developing the Bachelor Thesis named 
 
 
 **Datasets used for the project**:
-- [News dataset]: (https://www.kaggle.com/sunnysai12345/news-summary) 
-- [ArXiv dataset]: (https://www.kaggle.com/Cornell-University/arxiv)
+- [News dataset] (https://www.kaggle.com/sunnysai12345/news-summary) 
+- [ArXiv dataset] (https://www.kaggle.com/Cornell-University/arxiv)
 
 
 
