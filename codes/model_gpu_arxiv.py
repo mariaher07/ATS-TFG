@@ -50,19 +50,25 @@ from attention import AttentionLayer
 print("Num of GPUs available: ", len(tf.test.gpu_device_name()))
 print("\n")
 
-df = pd.read_csv(output_path+ "arxiv_preprocessed.csv", encoding='latin-1')
-print(df.shape)
+df_train = pd.read_csv(output_path+ "training_news_preprocessed.csv", encoding='latin-1')
+df_test = pd.read_csv(output_path+ "test_news_preprocessed.csv", encoding='latin-1')
+df_val = pd.read_csv(output_path+ "validation_news_preprocessed.csv", encoding='latin-1')
+
 
 """#2. Tokenization"""
 
 max_headlines_length=20
 max_text_length=180
 
-#train and test split
-x_tr, x_test, y_tr, y_test=train_test_split(np.array(df['text']), np.array(df['headlines']), test_size=0.15, random_state=0, shuffle=True)
+x_tr= np.array(df_train['text'])
+y_tr= np.array(df_train['headlines'])
 
-#train and val split
-x_tr, x_val, y_tr, y_val=train_test_split(x_tr, y_tr , test_size=0.15, random_state=0, shuffle=True)
+x_test= np.array(df_test['text'])
+y_test= np.array(df_test['headlines'])
+
+x_val= np.array(df_val['text'])
+y_val= np.array(df_val['headlines'])
+
 
 #prepare a tokenizer for reviews on training data
 x_tokenizer = Tokenizer() 
