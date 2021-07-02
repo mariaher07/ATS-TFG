@@ -50,9 +50,9 @@ from attention import AttentionLayer
 print("Num of GPUs available: ", len(tf.test.gpu_device_name()))
 print("\n")
 
-df_train = pd.read_csv(output_path+ "training_news_preprocessed.csv", encoding='latin-1')
-df_test = pd.read_csv(output_path+ "test_news_preprocessed.csv", encoding='latin-1')
-df_val = pd.read_csv(output_path+ "validation_news_preprocessed.csv", encoding='latin-1')
+df_train = pd.read_csv(output_path+ "training_arxiv_preprocessed.csv", encoding='latin-1')
+df_test = pd.read_csv(output_path+ "test_arxiv_preprocessed.csv", encoding='latin-1')
+df_val = pd.read_csv(output_path+ "validation_arxiv_preprocessed.csv", encoding='latin-1')
 
 
 """#2. Tokenization"""
